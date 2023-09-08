@@ -76,7 +76,7 @@ function getInfoPenjualan(dataPenjualan) {
     style: "currency",
     currency: "IDR",
   });
-  const rupiahTotalModal = totalKeuntungan.toLocaleString("id-ID", {
+  const rupiahTotalModal = totalModal.toLocaleString("id-ID", {
     style: "currency",
     currency: "IDR",
   });
